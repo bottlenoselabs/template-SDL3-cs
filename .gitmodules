@@ -1,0 +1,3 @@
+[submodule "ext/SDL3-cs"]
+	path = ext/SDL3-cs
+	url = https://github.com/bottlenoselabs/SDL3-cs
