@@ -49,12 +49,12 @@ public sealed class App : Application
         // Called when the application is to process an event such as a keyboard event or mouse event.
     }
 
-    protected override void OnUpdate(float deltaTime)
+    protected override void OnUpdate(TimeSpan deltaTime)
     {
         // Called when the application is to do some processing which is not related to rendering.
     }
 
-    protected override void OnDraw(float deltaTime)
+    protected override void OnDraw(TimeSpan deltaTime)
     {
         // Called when the application is to do some rendering.
 

@@ -10,21 +10,28 @@
 
   <ItemGroup>
     <!-- SDL C# libraries including extensions. Includes "safe" and "unsafe" APIs. -->
-    <PackageReference Include="bottlenoselabs.SDL" Version="2025.6.23"/>
+    <PackageReference Include="bottlenoselabs.SDL" Version="2025.6.30"/>
 
     <!-- SDL native dynamic link libraries. Remove runtime identifiers you don't need to minimize your application size on disk. -->
-    <PackageReference Include="bottlenoselabs.SDL.Runtime.win-x64" Version="2025.6.23"/>
-    <PackageReference Include="bottlenoselabs.SDL.Runtime.win-arm64" Version="2025.6.23"/>
-    <PackageReference Include="bottlenoselabs.SDL.Runtime.osx-x64" Version="2025.6.23"/>
-    <PackageReference Include="bottlenoselabs.SDL.Runtime.osx-arm64" Version="2025.6.23"/>
-    <PackageReference Include="bottlenoselabs.SDL.Runtime.linux-x64" Version="2025.6.23"/>
+    <PackageReference Include="bottlenoselabs.SDL.Native.win-x64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL.Native.win-arm64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL.Native.osx-x64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL.Native.osx-arm64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL.Native.linux-x64" Version="2025.6.30"/>
 
     <!-- SDL_image native dynamic link libraries. Remove runtime identifiers you don't need to minimize your application size on disk. -->
-    <PackageReference Include="bottlenoselabs.SDL_image.Runtime.win-x64" Version="2025.6.23"/>
-    <PackageReference Include="bottlenoselabs.SDL_image.Runtime.win-arm64" Version="2025.6.23"/>
-    <PackageReference Include="bottlenoselabs.SDL_image.Runtime.osx-x64" Version="2025.6.23"/>
-    <PackageReference Include="bottlenoselabs.SDL_image.Runtime.osx-arm64" Version="2025.6.23"/>
-    <PackageReference Include="bottlenoselabs.SDL_image.Runtime.linux-x64" Version="2025.6.23"/>
+    <PackageReference Include="bottlenoselabs.SDL_image.Native.win-x64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL_image.Native.win-arm64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL_image.Native.osx-x64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL_image.Native.osx-arm64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL_image.Native.linux-x64" Version="2025.6.30"/>
+
+    <!-- SDL_ttf native dynamic link libraries. Remove runtime identifiers you don't need to minimize your application size on disk. -->
+    <PackageReference Include="bottlenoselabs.SDL_ttf.Native.win-x64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL_ttf.Native.win-arm64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL_ttf.Native.osx-x64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL_ttf.Native.osx-arm64" Version="2025.6.30"/>
+    <PackageReference Include="bottlenoselabs.SDL_ttf.Native.linux-x64" Version="2025.6.30"/>
   </ItemGroup>
 
 </Project>
